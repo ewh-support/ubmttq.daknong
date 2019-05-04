@@ -1,0 +1,193 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 8, 2016, 4:02:06 AM
+    Author     : KitHulk
+*/
+.box_tinmoi_noibat_tb{
+    background-color: #fff;
+}
+.bgcolor_red{
+	/*background-color:#D00808;*/
+	background:  -moz-linear-gradient(center top , #BB1F04, #F5791F) repeat scroll 0 0;  
+	background: -moz-linear-gradient(center top, #BB1F04, #F5791F);
+	background: linear-gradient(to top, #BB1F04, #F5791F);
+	/*background: -moz-linear-gradient(center top, #0B3FA2,#75B3FC);*/
+	/*background: linear-gradient(to top, #0B3FA2,#75B3FC);*/
+}
+.bgcolor_red a{
+	color: #fff;
+	font-weight: bold;
+}
+.tab-content-container {
+    border: 1px solid #d2d2d2;
+	width: 100%;/*98%;*/
+}
+.tab-content-container .tab-names-container{
+	width: 100%;
+}
+.tab-names-container .nav > li > a {
+	padding: 5px 10px;
+}
+.tab-names-container .nav{
+	padding-left: 5px;
+	padding-top: 5px;
+}
+.tab-content{
+	padding: 5px;
+}
+/* Tin moi */
+.tab-content .tinmoi ul{
+	min-height: 370px;
+	margin: 0;
+	padding: 0;
+	list-style: outside none none;
+        background: url('../img/bg_tinmoi_body.png') bottom center no-repeat;
+}
+.tab-content .tinmoi ul li{
+	text-align: justify;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	min-height: 70px;
+}
+.tab-content .tinmoi ul li img{
+	float:left;
+	width: 70px;
+	margin-right: 3px;
+}
+
+.tab-content .tinmoi ul li .dcreate{
+	text-align: right;
+	color: #000;
+	font-size: 11px;
+}
+.tab-content .tinmoi ul li a{
+	text-decoration: none;
+	color: #333;
+}
+.tab-content .tinmoi ul li a:hover{
+	text-decoration: none;
+	color: #C82828;
+}
+.tab-content .tinmoi ul li:last-child{
+	border-width: 0px;
+}
+/* Thong bao */
+.tab-content .thongbao ul{
+	min-height: 361px;
+	margin: 0;
+	padding: 0;
+	list-style: outside none none;
+        background: url('../img/bg_tinmoi_body.png') bottom center no-repeat;
+}
+.tab-content .thongbao ul li{
+	text-align: justify;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.tab-content .thongbao ul li .dcreate{
+	text-align: left;
+	color: #000;
+	font-size: 11px;
+	font-weight: bold;
+}
+.tab-content .thongbao ul li .metabottom{
+	text-align: right;
+	color: #000;
+	font-size: 11px;
+}
+.tab-content .thongbao ul li a{
+	text-decoration: none;
+	color: #333;
+}
+.tab-content .thongbao ul li a:hover{
+	text-decoration: none;
+	color: #C82828;
+}
+.tab-content .thongbao ul li:last-child{
+	border-width: 0px;
+}
+.tinmoi1tin{
+	text-align: justify;
+	padding: 5px;
+}
+.subtinnoi1tin{
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.075);
+}
+.box_tinmoi_noibat_tb_header{
+	background-color: #F5EFC4;
+	padding: 5px 0px 5px 0px;
+	margin-bottom: 1px;
+}
+.box_tinmoi_noibat_tb_header a{
+	background:  -moz-linear-gradient(center top , #D00808, #7D1313) repeat scroll 0 0;
+	background: -moz-linear-gradient(center top, #9E9023, #DEF7A7);
+	background: linear-gradient(to top, #9E9023, #DEF7A7); 
+    border-left: 5px solid #F5EFC4;/*#4abe59;*/
+	color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 15px;
+    text-transform: uppercase;
+}
+.tinmoi1tin #tinmoi1tin_title{
+	color: #333333;
+	font-weight: bold;
+}
+.tinmoi1tin img{
+	width: 100%;
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+.tab-content-container{
+	height: 460px;
+}
+.subtinnoi1tin,.subtinnoibat_tb{
+	height: 460px;
+	overflow:hidden;
+}
+/* Landscape desktop */
+@media (min-width: 1200px) {
+	.subtinnoi1tin #tinmoi1tin_summary{
+		height: 129px;
+		overflow:hidden;
+	}
+	.subtinnoi1tin,.subtinnoibat_tb{
+		height: 460px;
+	}
+	.tab-content-container{
+		height: 460px;
+	}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.subtinnoibat_tb{
+		padding-left: 2px;
+	}
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.subtinnoibat_tb{
+		padding-left: 2px;
+	}
+	.tab-content .tinmoi ul li img{
+		width: 100%;
+	}
+	.box_tinmoi_noibat_tb{
+		padding-left: 2px;
+	}
+	.box_tinmoi_noibat_tb .subtinnoibat_tb{
+		padding-left: 0px;
+	}
+	.subtinnoi1tin,.subtinnoibat_tb{
+		height: 460px;
+		overflow:scroll;
+	}
+}
+
